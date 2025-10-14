@@ -1,0 +1,92 @@
+{
+  "question": {
+    "GO_HOME": 0.05,
+    "STAY": 0.1,
+    "NEUTRAL": 0.2,
+    "TEST_BOUNDARY": 0.05,
+    "POWER_SIGNAL": 0.05,
+    "SMALL_TALK": 0.15,
+    "HELP_SEEK": 0.4
+  },
+  "collective_subject": {
+    "GO_HOME": 0.08,
+    "STAY": 0.25,
+    "NEUTRAL": 0.15,
+    "TEST_BOUNDARY": 0.18,
+    "POWER_SIGNAL": 0.2,
+    "SMALL_TALK": 0.07,
+    "HELP_SEEK": 0.07
+  },
+  "immediacy": {
+    "GO_HOME": 0.05,
+    "STAY": 0.3,
+    "NEUTRAL": 0.1,
+    "TEST_BOUNDARY": 0.15,
+    "POWER_SIGNAL": 0.2,
+    "SMALL_TALK": 0.05,
+    "HELP_SEEK": 0.15
+  },
+  "softener": {
+    "GO_HOME": 0.15,
+    "STAY": 0.1,
+    "NEUTRAL": 0.15,
+    "TEST_BOUNDARY": 0.1,
+    "POWER_SIGNAL": 0.05,
+    "SMALL_TALK": 0.15,
+    "HELP_SEEK": 0.3
+  },
+  "authority": {
+    "GO_HOME": 0.02,
+    "STAY": 0.3,
+    "NEUTRAL": 0.08,
+    "TEST_BOUNDARY": 0.2,
+    "POWER_SIGNAL": 0.3,
+    "SMALL_TALK": 0.05,
+    "HELP_SEEK": 0.05
+  },
+  "gratitude": {
+    "GO_HOME": 0.1,
+    "STAY": 0.08,
+    "NEUTRAL": 0.22,
+    "TEST_BOUNDARY": 0.05,
+    "POWER_SIGNAL": 0.05,
+    "SMALL_TALK": 0.3,
+    "HELP_SEEK": 0.2
+  },
+  "apology": {
+    "GO_HOME": 0.25,
+    "STAY": 0.08,
+    "NEUTRAL": 0.12,
+    "TEST_BOUNDARY": 0.08,
+    "POWER_SIGNAL": 0.05,
+    "SMALL_TALK": 0.12,
+    "HELP_SEEK": 0.3
+  },
+  "suggestion": {
+    "GO_HOME": 0.1,
+    "STAY": 0.15,
+    "NEUTRAL": 0.15,
+    "TEST_BOUNDARY": 0.2,
+    "POWER_SIGNAL": 0.15,
+    "SMALL_TALK": 0.1,
+    "HELP_SEEK": 0.15
+  },
+  "boundary_push": {
+    "GO_HOME": 0.05,
+    "STAY": 0.2,
+    "NEUTRAL": 0.1,
+    "TEST_BOUNDARY": 0.35,
+    "POWER_SIGNAL": 0.15,
+    "SMALL_TALK": 0.05,
+    "HELP_SEEK": 0.1
+  },
+  "care": {
+    "GO_HOME": 0.2,
+    "STAY": 0.1,
+    "NEUTRAL": 0.2,
+    "TEST_BOUNDARY": 0.05,
+    "POWER_SIGNAL": 0.05,
+    "SMALL_TALK": 0.25,
+    "HELP_SEEK": 0.15
+  }
+}
