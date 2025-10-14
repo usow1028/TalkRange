@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TalkRange API returns range and actions for scenario sample 1`] = `
+{
+  "explain": {
+    "note": Any<String>,
+    "signals": Any<Array>,
+  },
+  "intent_range": ArrayContaining [
+    ObjectContaining {
+      "intent": Any<String>,
+      "probability": Any<Number>,
+    },
+  ],
+  "recommended_actions": ArrayContaining [
+    ObjectContaining {
+      "action": Any<String>,
+      "ev": Any<Number>,
+      "rationale": Any<String>,
+      "template": Any<String>,
+    },
+  ],
+}
+`;

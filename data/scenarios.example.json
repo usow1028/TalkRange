@@ -1,0 +1,114 @@
+[
+  {
+    "id": "mgr_overtime_boundary",
+    "role": "상사-야근",
+    "time_context": "금요일 야근 직전",
+    "culture": "pressure",
+    "utterance": "다들 오늘 끝내고 가야 하는 거 알죠?",
+    "history": ["이번 주에도 야근이 연속"],
+    "my_profile": {
+      "relationship": "peer",
+      "taskUrgency": 0.7,
+      "futureImportance": 0.5,
+      "tolerance": 0.4
+    }
+  },
+  {
+    "id": "peer_weekend_plan",
+    "role": "동료-주말약속",
+    "time_context": "토요일 오전",
+    "culture": "wlb",
+    "utterance": "이번 주말에 다같이 나와서 좀 정리하면 어때?",
+    "history": ["고객 피드백 대기"],
+    "my_profile": {
+      "relationship": "peer",
+      "taskUrgency": 0.5,
+      "futureImportance": 0.6,
+      "tolerance": 0.6
+    }
+  },
+  {
+    "id": "client_negotiation",
+    "role": "고객-흥정",
+    "time_context": "점심 직전 미팅",
+    "culture": "balanced",
+    "utterance": "가능하면 단가를 이번 분기까지만 더 낮춰 주실 수 있을까요?",
+    "history": ["가격 인하 협상 2회차"],
+    "my_profile": {
+      "relationship": "client",
+      "taskUrgency": 0.8,
+      "futureImportance": 0.9,
+      "tolerance": 0.5
+    }
+  },
+  {
+    "id": "professor_deadline",
+    "role": "교수-마감",
+    "time_context": "마감 하루 전",
+    "culture": "pressure",
+    "utterance": "보고서는 내일까지 반드시 제출해야 합니다.",
+    "history": ["연구계획 지연", "지도교수 재촉"],
+    "my_profile": {
+      "relationship": "manager",
+      "taskUrgency": 0.9,
+      "futureImportance": 0.8,
+      "tolerance": 0.3
+    }
+  },
+  {
+    "id": "family_request",
+    "role": "가족-부탁거절",
+    "time_context": "명절 전날",
+    "culture": "wlb",
+    "utterance": "이번에도 네가 좀 도와주면 안 될까?",
+    "history": ["작년에도 모든 준비 담당"],
+    "my_profile": {
+      "relationship": "family",
+      "taskUrgency": 0.4,
+      "futureImportance": 0.5,
+      "tolerance": 0.6
+    }
+  },
+  {
+    "id": "investor_demand",
+    "role": "투자자-요구",
+    "time_context": "분기 실적 발표 전",
+    "culture": "pressure",
+    "utterance": "이번에는 숫자로 확실히 증명해야 합니다.",
+    "history": ["실적 부진 지적"],
+    "my_profile": {
+      "relationship": "client",
+      "taskUrgency": 0.85,
+      "futureImportance": 0.95,
+      "tolerance": 0.45
+    }
+  },
+  {
+    "id": "vendor_delay",
+    "role": "벤더-납기지연",
+    "time_context": "납기 전날",
+    "culture": "balanced",
+    "utterance": "지금 바로 조치하면 내일까지 맞출 수 있습니다.",
+    "history": ["지난달에도 지연"],
+    "my_profile": {
+      "relationship": "client",
+      "taskUrgency": 0.8,
+      "futureImportance": 0.7,
+      "tolerance": 0.5
+    }
+  },
+  {
+    "id": "date_schedule",
+    "role": "데이트-약속변경",
+    "time_context": "저녁 약속 3시간 전",
+    "culture": "wlb",
+    "utterance": "미안한데 오늘은 조금 늦을 것 같아. 가능하면 시간을 조정할 수 있을까?",
+    "history": ["최근 일정 변경 2회"],
+    "my_profile": {
+      "relationship": "partner",
+      "taskUrgency": 0.3,
+      "futureImportance": 0.8,
+      "tolerance": 0.7
+    }
+  }
+]
