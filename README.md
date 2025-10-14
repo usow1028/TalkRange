@@ -14,13 +14,19 @@ TalkRange는 포커 메타포를 활용해 한국어 대화에서 의도 분포�
 
 ```bash
 npm install
-npm run dev        # 개발 서버 (http://localhost:3333)
-npm run build      # 타입스크립트 컴파일
-npm start          # dist/index.js 실행 (빌드 후)
-npm test           # Jest 테스트 (스냅샷 포함)
-npm run lint       # ESLint 검사
-npm run format     # Prettier 정렬
+npm run dev
+npm run build
+npm start
+npm test
+npm run lint
+npm run format
 ```
+
+- `npm run dev`: `tsx` 기반의 빠른 HMR 스타일 개발 서버로 `http://localhost:3333`에서 즉시 실행됩니다.
+- `npm run build`: TypeScript를 `dist/`로 컴파일합니다.
+- `npm start`: 컴파일된 Express 서버(`dist/index.js`)를 실행합니다.
+- `npm test`: Jest + Supertest 테스트(스냅샷 포함)를 실행합니다.
+- `npm run lint` / `npm run format`: ESLint와 Prettier로 코드 품질을 유지합니다.
 
 ## REST API
 
